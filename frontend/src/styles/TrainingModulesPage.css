@@ -1,0 +1,70 @@
+.training-modules-container {
+    padding: 20px;
+  }
+  
+  .training-modules-container h1{
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: white;
+  }
+  .training-form {
+    display: grid;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .training-form input,
+  .training-form textarea,
+  .training-form select,
+  .training-form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .training-form button {
+    background: #2575fc;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .modules-list {
+    margin-top: 20px;
+  }
+  
+  .module-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  /* View Modules Button */
+.view-modules-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #2575fc, #6a11cb); /* Gradient background */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .view-modules-btn:hover {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Reverse gradient on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  .view-modules-btn:active {
+    transform: translateY(0); /* Reset lift on click */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Reduced shadow on click */
+  }
+  
+  

@@ -1,0 +1,88 @@
+
+  .profile-content {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .profile-box {
+    border-top: 2px solid #ddd;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  .profile-box h2 {
+    color: #1b2630;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .profile-item {
+    display: flex;
+    justify-content: space-between; /* Ensures equal spacing */
+    gap: 20px; /* Adjust spacing between label and value */
+    padding: 8px 0;
+    font-size: 1rem;
+    color: #2e2e2e;
+  }
+  .profile-box strong {
+    min-width: 100px; /* Ensures labels are aligned */
+    text-align: left;
+  }
+  
+  .profile-box span {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .super-admin-section {
+    background: #e74c3c;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .admin-section {
+    background: #3498db;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .sub-admin-section {
+    background: #f39c12;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .user-section {
+    background: #2ecc71;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .loading {
+    color: #555;
+    font-size: 1.2rem;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+  }

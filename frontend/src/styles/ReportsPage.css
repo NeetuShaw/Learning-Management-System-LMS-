@@ -1,0 +1,84 @@
+.reports-container {
+  padding: 10px; /* Compact padding */
+  display: grid;
+  grid-template-rows: auto auto auto; /* Grid layout for better organization */
+  grid-template-columns: 1fr; /* Single-column layout */
+  gap: 10px; /* Consistent spacing between elements */
+  align-items: center;
+  justify-items: center;
+  height: 100vh; /* Use full viewport height */
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.4rem; /* Slightly smaller title */
+  margin: 0; /* Remove excess margin */
+}
+
+.pie-chart-container {
+  width: 200px; /* Fixed size for the chart */
+  height: 200px; /* Ensure square shape */
+}
+
+.date-filter {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.date-filter input,
+.date-filter button {
+  padding: 5px;
+  font-size: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: auto; /* Adjust size for better fit */
+}
+.filter {
+  padding: 8px 16px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+.export-btn {
+  padding: 8px 16px;
+  background: #4caf50;
+  color: white;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+  transition: background 0.3s ease;
+}
+
+.export-btn:hover {
+  background: #45a049;
+}
+
+.report-card {
+  width: 90%; /* Reduce width for better fit */
+  text-align: center;
+  padding: 8px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.report-card h3 {
+  font-size: 1rem; /* Smaller heading */
+  margin-bottom: 5px;
+}
+
+.report-card p,
+.report-card ul {
+  font-size: 0.9rem;
+  margin: 0; /* Remove extra margins */
+}
+
+.report-card ul {
+  list-style: none;
+  padding: 0;
+}
+

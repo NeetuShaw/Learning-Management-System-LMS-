@@ -1,0 +1,17 @@
+.assign-task-container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .assign-task-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .assign-task-container input,
+  .assign-task-container textarea {
+    margin: 5px 0;
+    padding: 10px;
+  }
+  

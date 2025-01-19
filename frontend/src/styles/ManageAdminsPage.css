@@ -1,0 +1,177 @@
+/* General Styles */
+.container {
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Page Title */
+.heading h1 {
+  text-align: center;
+  color: #fbfbfb;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.heading p {
+  margin-left: 100px;
+}
+
+/* Form Styles */
+.add-admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 450px; /* Limit form width */
+}
+
+.add-admin-form h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #293540;
+}
+
+.add-admin-form input,
+.add-admin-form select {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+/* Center and Resize the "Add User" Button */
+.add-admin-form button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+  width: fit-content;
+}
+
+.add-admin-form button:hover {
+  background: #219150;
+}
+
+/* Admin List Section with Scrollbar */
+.admin-list-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-height: 300px; /* Fixed height */
+  overflow-y: auto; /* Enables scrollbar */
+  width: 90%;
+}
+
+.admin-list-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-list-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* background: #ecf0f1; */
+  border-radius: 5px;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.admin-list-section li span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Remove Button Styling */
+.add-admin-form button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  padding: 8px 20px; /* Smaller size */
+  font-size: 0.9rem;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto; /* Centers the button */
+  width: fit-content;
+}
+
+.add-admin-form button:hover {
+  background: #219150;
+}
+
+
+.add-admin-form button:hover {
+  background: #219150;
+}
+.admin-list-section {
+  height: 200px;  /* Fixed box height */
+  overflow-y: auto;  /* Enable scrolling inside */
+  border: 1px solid #ccc; /* Optional: Adds a border for clarity */
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 87%;
+}
+.admin-list-section h2 {
+  text-align: center;
+  color: #202931;
+}
+
+.admin-list-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-list-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.admin-list-section li:last-child {
+  border-bottom: none;
+}
+
+.admin-list-section span {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.admin-list-section button {
+  background: rgb(247, 29, 29);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background 0.3s;
+}
+
+.admin-list-section button:hover {
+  background: red;
+}

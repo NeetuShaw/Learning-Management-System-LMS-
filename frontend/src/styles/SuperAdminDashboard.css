@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 20vh;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #1c2b5b, #3b5998); /* Gradient with dark blue and lighter blue */
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 60px; /* Adjusted for fixed navbar */
+  left: 0;
+  width: 200px;
+  height: calc(100vh - 60px); /* Full height minus navbar height */
+  background: linear-gradient(to bottom, #1c2b5b, #3b5998); /* Dark blue gradient */
+  color: black;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure logout button stays at the bottom */
+}
+
+/* Sidebar links */
+.sidebar-links {
+  list-style-type: none;
+  padding: 0;
+  flex-grow: 1;
+}
+.sidebar-links li {
+  padding: 15px;
+  text-align: left;
+}
+.sidebar-links a {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
+
+
+
+.sidebar-links a svg {
+  margin-right: 10px;
+}
+
+/* Logout button */
+.logout-btn {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Main content */
+main {
+  margin-left: 250px;
+  padding: 20px;
+  width: calc(100% - 250px);
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 0;
+  }
+
+  .sidebar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .sidebar-links li {
+    width: auto;
+  }
+
+  .sidebar-links a {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  main {
+    margin-left: 0;
+    width: 100%;
+    padding-top: 80px;
+  }
+}
+
+.dashboard-header {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dashboard-header h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.dashboard-header p {
+  font-size: 18px;
+  color: #666;
+}
+
