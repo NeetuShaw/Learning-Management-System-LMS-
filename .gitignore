@@ -18,7 +18,7 @@ Thumbs.db
 /dist
 
 # Frontend build output (React)
-/frontend/node_modules/
+frontend/node_modules/
 
 # Backend build output (if any)
 /backend/node_modules/
