@@ -34,7 +34,4 @@ router.get("/analytics", protect, getAnalytics);
 // Add export route
 router.get("/analytics/export", protect, exportAnalytics);
 
-router.get("/user-progress", protect, getUserProgress); // Get user progress
-router.get("/certificates", protect, getUserCertificates); // Get user certificates
-
 module.exports = router;

@@ -45,7 +45,7 @@
     flex-direction: column;
     gap: 15px;
     width: 100%;
-    max-width: 400px; /* Center the forms */
+    max-width: 100px; /* Center the forms */
   }
   
   input {

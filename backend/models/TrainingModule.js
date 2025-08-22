@@ -6,7 +6,6 @@ const trainingModuleSchema = new mongoose.Schema({
   contentType: { type: String, required: true },
   contentUrl: { type: String, required: true },
   createdBy: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
-  certificateUrl: { type: String }, // Add this field for certificates
 });
 
 module.exports = mongoose.model("TrainingModule", trainingModuleSchema);
